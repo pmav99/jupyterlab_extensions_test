@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "jlab2.2"
+version = "0.1.0"
+description = ""
+authors = ["Panos Mavrogiorgos <pmav99@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyterlab = "^2.2.9"
+tqdm = "^4.51.0"
+ipywidgets = "^7.5.1"
+sidecar = "^0.4.0"
+bokeh = "^2.2.3"
+bqplot = "^0.12.19"
+ipycanvas = "^0.6.0"
+ipyevents = "^0.8.1"
+ipytree = "^0.1.8"
+qgrid = "^1.3.1"
+matplotlib = "^3.3.3"
+ipympl = "^0.5.8"
+ipyleaflet = "^0.13.3"
+
+[tool.poetry.dev-dependencies]
+nodeenv = "^1.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
